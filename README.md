@@ -32,10 +32,6 @@ python yolo_seqnms.py
 ```
 python yolo_seqnms.py tiny
 ```
-- If you only want to detect person, run:
-```
-python yolo_seqnms.py only_person
-```
 - If you want to reconstruct a video from these output images, you can go to the video directory and run:
 ```
 python img2video.py output.mp4
@@ -45,11 +41,6 @@ python img2video.py output.mp4
 python img2video.py output.mp4 play
 ```
 
-## Results
-
-Here’s what I got from running my model over a demo video. Clic the image to watch the video on Youtube.
-
-[![Watch the video](img/index.jpg)](https://www.youtube.com/watch?v=XC-3qXT0NsY)
 
 ## Reference
 
